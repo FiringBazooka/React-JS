@@ -38,7 +38,7 @@ class App extends React.Component{
             <div>
             <img src={image.urls.regular} alt={image.alt_description}></img>
             <br/>
-            {desc}
+            <h3>{desc}</h3>
             <br/>
             <br/>
             </div>
